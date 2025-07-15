@@ -1,8 +1,58 @@
-# Overview
+📘 5_Optimal_Skills.ipynb – Best Skill to Learn
+Goal: Find the most "optimal" skill — both high demand and high pay.
 
-Welcome to my analysis of the data job market, focusing on data analyst roles. This project was created out of a desire to navigate and understand the job market more effectively. It delves into the top-paying and in-demand skills to help find optimal job opportunities for data analysts.
+Key Steps:
 
-The data sourced from [Luke Barousse's Python Course](https://lukebarousse.com/python) which provides a foundation for my analysis, containing detailed information on job titles, salaries, locations, and essential skills. Through a series of Python scripts, I explore key questions such as the most demanded skills, salary trends, and the intersection of demand and salary in data analytics.
+Join skill frequency with salary data.
+
+Calculate % of jobs requiring each skill.
+
+Scatter plot: Salary vs Skill Demand.
+
+Outcome: Visual tool to identify which skills are worth learning based on ROI.
+
+Let me know if you want a single dashboard summary or automated report based on this analysis. 
+
+
+
+
+
+
+
+
+You said:
+make it smaller
+
+
+ChatGPT said:
+Here’s a compressed version of the notebook overviews:
+
+📘 1_EDA_Intro.ipynb
+Purpose: Intro to job market data for data roles.
+
+Covers: Data import, cleanup, and initial role exploration.
+
+Sets up: Questions around demand, trends, salaries, and top skills.
+
+📘 2_Skill_Demand.ipynb
+Goal: Identify most in-demand skills for top 3 roles (Analyst, Scientist, Engineer).
+
+Method: Explode skill lists, count per role, visualize results.
+
+📘 3_Skills_Trend.ipynb
+Focus: Skill demand trends over months for Data Analysts.
+
+Steps: Filter U.S. jobs, group by month, plot trends.
+
+📘 4_Salary_Analysis.ipynb
+Goal: Analyze salary by role and skill.
+
+Key: Focus on U.S. jobs, visualize pay distributions, find top-paying skills.
+
+📘 5_Optimal_Skills.ipynb
+Goal: Find skills that are both in-demand and high-paying.
+
+Approach: Join skill % with salary data, scatter plot ROI per skill.
 
 # The Questions
 
